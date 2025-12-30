@@ -4,8 +4,8 @@ import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
 
 const HowItWorks = () => {
   return (
-    <section>
-      <h2 className="heading">How It Works</h2>
+    <section id="how-it-works">
+      <h2 className="heading1">How It Works</h2>
       <div className="flex flex-wrap justify-center gap-10 mb-10 max-md:px-20 max-sm:px-0">
         {works.map((item) => (
           <div

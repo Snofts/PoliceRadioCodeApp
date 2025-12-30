@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <ul>
           {navLinks.map(({ label, url }) => (
-            <li key={label} className="hover:text-blue hover:scale-100">
+            <li key={label} className="hover:text-[#40C4FF] active:text-[#40C4FF] hover:scale-100">
               <a
                 // className="hover:text-blue hover:scale-100"
                 href={url}

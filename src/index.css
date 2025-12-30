@@ -60,7 +60,11 @@ body {
     @apply px-10 max-sm:px-5 flex flex-col items-center;
   }
 
-  .heading{
+  .heading1{
     @apply text-4xl text-center mt-30 mb-30;
+  }
+
+  .heading2{
+    @apply text-4xl text-center my-20;
   }
 }
