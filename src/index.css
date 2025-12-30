@@ -57,7 +57,7 @@ body {
   }
 
   section{
-    @apply px-10 flex flex-col items-center;
+    @apply px-10 max-sm:px-5 flex flex-col items-center;
   }
 
   .heading{

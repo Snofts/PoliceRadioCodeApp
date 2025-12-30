@@ -6,7 +6,7 @@ const HowItWorks = () => {
   return (
     <section>
       <h2 className="heading">How It Works</h2>
-      <div className="flex flex-wrap gap-10 mb-10">
+      <div className="flex flex-wrap justify-center gap-10 mb-10 max-md:px-20 max-sm:px-0">
         {works.map((item) => (
           <div
             className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[20rem]"
@@ -21,7 +21,7 @@ const HowItWorks = () => {
                   <use href={`/sprite.svg#icon-${item.iconUrl}`}></use>
                 </svg>
               </div>
-              <h5 className="text-3xl mb-5">{item.title}</h5>
+              <h5 className="text-3xl mb-5 max-sm:mt-3">{item.title}</h5>
               <p className="body-2 mb-6 text-n-3">{item.text}</p>
             </div>
             <div
