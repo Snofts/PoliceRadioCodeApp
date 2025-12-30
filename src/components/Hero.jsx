@@ -78,7 +78,7 @@ const Hero = () => {
       <div className="absolute top-20 left-0">
         <img
           className="w-full h-dvh opacity-30 object-cover"
-          src="./src/assets/world-map.png"
+          src="/world-map.png"
           alt="World map"
         />
       </div>
