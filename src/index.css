@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme{
+  /* Colors */
+  --bg: #000000;
+  --text: #FFFFFF;
+  --accent-green: #45a049;
+  --accent-pink: #FF69B4;
+  --accent-purple: #B026FF;
+  --accent-yellow: #FFEB3B;
+  --accent-orange: #FF9500;
+  --map-us: #00FFFF;
+  --map-ca: #FF69B4;
+  --map-au: #39FF14;
+  --map-gb: #B026FF;
+  --hover-blue: #40C4FF;
+
+
+    /* Fonts */
+  --font-sans: "Inter", sans-serif;
+
+}
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #000;
+  color: var(--text);
+  font-family: var(--font-sans);
+}
+
+
+@layer components{
+  header{
+    @apply w-screen fixed top-0 left-0 z-50 flex text-white bg-black min-h-[7vh] border-b-[0.5px] border-gray-400;
+
+    nav{
+      @apply container mx-auto flex justify-around content-center px-5 py-5 2xl:px-10;
+
+      ul{
+        @apply flex max-md:hidden justify-around gap-8 max-lg:gap-4;
+
+        a{
+          /* @apply hover:text-hover-blue; */
+        }
+      }
+    }
+  }
+}
