@@ -61,6 +61,6 @@ body {
   }
 
   .heading{
-    @apply text-4xl text-center mt-30 mb-20;
+    @apply text-4xl text-center mt-30 mb-30;
   }
 }

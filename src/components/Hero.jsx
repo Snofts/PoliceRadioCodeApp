@@ -78,7 +78,7 @@ const Hero = () => {
       <div className="absolute top-20 left-0">
         <img
           className="w-full h-dvh opacity-30 object-cover"
-          src="src/assets/world-map.png"
+          src="./src/assets/world-map.png"
           alt="World map"
         />
       </div>
@@ -88,35 +88,6 @@ const Hero = () => {
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
 
-      {/* <div>
-        <MapContainer
-          center={[20, 0]}
-          zoom={2}
-          style={{ height: "100%", background: "#000" }}
-        >
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" // Or a dark one: https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png
-            attribution="&copy; OpenStreetMap"
-          />
-          <GeoJSON
-            data={geoData}
-            style={countryStyle}
-            onEachFeature={onEachCountry}
-          />
-
-          {pings.map((ping, i) => (
-            <CircleMarker
-              key={i}
-              center={ping.coords}
-              radius={10}
-              fillColor={ping.color}
-              color={ping.color}
-              opacity={0.8}
-              className="animate-pulse" // Tailwind or custom CSS for ping animation
-            />
-          ))}
-        </MapContainer>
-      </div> */}
     </section>
   );
 };
