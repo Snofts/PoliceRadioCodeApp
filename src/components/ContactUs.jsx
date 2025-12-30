@@ -23,7 +23,7 @@ const ContactUs = () => {
         </h3>
         <form
           action=""
-          className="space-y-6 grid grid-cols-2 grid-rows-3 gap-4"
+          className="space-y-6 grid grid-cols-2 grid-rows-3 gap-y-0 gap-x-7"
         >
           <div className="col-span-1">
             <label htmlFor="name" className="block text-sm font-medium mb-2 ">
