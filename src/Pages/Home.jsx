@@ -4,6 +4,7 @@ import HowItWorks from "../components/HowItWorks";
 import PrivacyPolicy from "../components/PrivacyPolicy";
 import TermsOfService from "../components/TermsOfService";
 import ContactUs from "../components/ContactUs";
+import DownloadApp from "../components/DownloadApp";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <HowItWorks />
       <PrivacyPolicy />
       <TermsOfService />
+      <DownloadApp />
       <ContactUs />
     </div>
   );

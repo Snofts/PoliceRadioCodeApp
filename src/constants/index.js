@@ -47,4 +47,27 @@ const works = [
   }
 ];
 
-export { navLinks, works };
+const benefits = [
+  {
+    id: "0",
+    text: "Access real-time police, fire, and emergency codes used across multiple countries.",
+    backgroundColor: "bg-[#45a049]"
+  },
+  {
+    id: "1",
+    text: "Stay informed and up-to-date with first responders' language.",
+    backgroundColor: "bg-[#FF69B4]",
+  },
+  {
+    id: "2",
+    text: "Ensure better communication between responders and the public.",
+   backgroundColor: "bg-[#B026FF]",
+  },
+  {
+    id: "3",
+    text: "Comprehensive database with detailed codes for specific states, counties, and cities.",
+    backgroundColor: "bg-[#FFEB3B]",
+  }
+];
+
+export { navLinks, works, benefits };

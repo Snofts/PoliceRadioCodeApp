@@ -61,10 +61,10 @@ body {
   }
 
   .heading1{
-    @apply text-4xl text-center mt-30 mb-30;
+    @apply text-4xl font-semibold text-center mt-30 mb-30;
   }
 
   .heading2{
-    @apply text-4xl text-center my-20;
+    @apply text-4xl font-semibold text-center my-20;
   }
 }

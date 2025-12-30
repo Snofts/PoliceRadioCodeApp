@@ -18,7 +18,7 @@ const ContactUs = () => {
   return (
     <section id="contact-us">
       <div className="bg-card p-8 rounded-lg shadow-xs" onSubmit={handleSubmit}>
-        <h3 className="text-2xl font-semibold my-20 text-center">
+        <h3 className="text-4xl font-semibold my-20 text-center">
           Send Us a Message
         </h3>
         <form
@@ -63,7 +63,7 @@ const ContactUs = () => {
               name="message"
               required
               className="w-full h-[80%] px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
-              placeholder="Hello, I'd like to tal about..."
+              placeholder="Hello, I'd like to talk about..."
             />
           </div>
           <div className="col-span-2 flex justify-center">
