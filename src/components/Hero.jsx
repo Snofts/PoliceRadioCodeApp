@@ -60,13 +60,13 @@ const Hero = () => {
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500 ">
           Decode
         </span>{" "}
-        police, fire, and <br /> emergency{" "}
+        Police, Fire, and <br /> Emergency{" "}
         <span
           className="bg-clip-text text-transparent bg-gradient-to-r from-[#39FF14] to-[#00FFFF]"
         >
-          codes
+          Codes
         </span>{" "}
-        used by first <br /> responders across the <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B026FF] to-[#FF69B4]">globe</span>.
+        used by First <br /> Responders across the <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B026FF] to-[#FF69B4]">Globe</span>.
       </h1>
       <p className="max-sm:text-[0.6rem] pb-20 z-100">
         Available in the U.S., Canada, Australia, and the U.K.

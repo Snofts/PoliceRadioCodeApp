@@ -31,7 +31,7 @@ const Navbar = () => {
                   ? "text-[#40C4FF] scale-102 hr-2"
                   : ""
               }`}
-              // onClick={() => setOpenNavigation(false)}
+              onClick={() => setOpenNavigation(false)}
             >
               <a
                 // className="hover:text-blue hover:scale-100"
