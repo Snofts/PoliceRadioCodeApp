@@ -47,7 +47,7 @@ body {
       @apply container mx-auto flex justify-around content-center px-5 py-5 2xl:px-10;
 
       ul{
-        @apply flex max-md:hidden justify-around gap-8 max-lg:gap-4;
+        @apply flex max-md:flex-col max-md:absolute max-md:top-10 max-md:bg-black max-md:w-screen max-md:h-dvh justify-around gap-8 max-lg:gap-4 max-md:items-center max-md:justify-evenly max-md:p-20 max-md:origin-right max-md:transition-transform max-md:duration-300;
 
         a{
           /* @apply hover:text-hover-blue; */
@@ -61,10 +61,10 @@ body {
   }
 
   .heading1{
-    @apply text-4xl font-semibold text-center mt-30 mb-30;
+    @apply text-4xl max-sm:text-3xl font-semibold text-center mt-30 mb-30;
   }
 
   .heading2{
-    @apply text-4xl font-semibold text-center my-20;
+    @apply text-4xl max-sm:text-3xl font-semibold text-center my-20;
   }
 }

@@ -23,9 +23,9 @@ const ContactUs = () => {
         </h3>
         <form
           action=""
-          className="space-y-6 grid grid-cols-2 grid-rows-3 gap-y-0 gap-x-7"
+          className="space-y-6 grid grid-cols-2 max-md:grid-cols-[20rem] max-sm:grid-cols-[10rem] grid-rows-[8rem_10rem_10rem] max-md:grid-rows-[7rem_7rem_10rem_5rem] gap-y-0 gap-x-7"
         >
-          <div className="col-span-1">
+          <div className="col-span-1 max-md:col-span-2">
             <label htmlFor="name" className="block text-sm font-medium mb-2 ">
               Your Name
             </label>
@@ -38,7 +38,7 @@ const ContactUs = () => {
               placeholder="Jane Mandy..."
             />
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 max-md:col-span-2">
             <label htmlFor="email" className="block text-sm font-medium mb-2 ">
               Your Email
             </label>
@@ -66,7 +66,7 @@ const ContactUs = () => {
               placeholder="Hello, I'd like to talk about..."
             />
           </div>
-          <div className="col-span-2 flex justify-center">
+          <div className="col-span-2 flex justify-center max-md:items-center">
             <button
               type="submit"
               disabled={isSubmiting}

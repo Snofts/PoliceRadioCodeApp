@@ -72,7 +72,7 @@ const Hero = () => {
         Available in the U.S., Canada, Australia, and the U.K.
       </p>
       <button className="bg-blue-500 hover:bg-blue-400 transition-colors w-[10rem] h-[3rem] rounded-full z-100">
-        <a href="#">Download Now</a>
+        <a href="/#download-app">Download Now</a>
       </button>
 
       <div className="absolute top-20 left-0">

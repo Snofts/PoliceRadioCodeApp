@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa";
 
 const DownloadApp = () => {
   return (
-    <section className="mt-30 px-10 flex flex-row justify-around items-center gap-4">
+    <section id="download-app" className="mt-40 px-10 flex flex-row justify-around items-center gap-4">
       <div>
         <h2 className="text-6xl font-semibold mb-10">Download APP</h2>
         <div className="flex justify-center flex-col w-full">
