@@ -22,7 +22,7 @@ const Navbar = () => {
         <div>
           <h2 className="text-white">PoliceRadioCodeApp</h2>
         </div>
-        <ul className={`${openNavigation ? "" : "hidden"}`}>
+        <ul className={`${openNavigation ? "" : "max-md:hidden"}`}>
           {navLinks.map(({ label, url }) => (
             <li
               key={label}
@@ -31,7 +31,7 @@ const Navbar = () => {
                   ? "text-[#40C4FF] scale-102 hr-2"
                   : ""
               }`}
-              onClick={() => setOpenNavigation(false)}
+              // onClick={() => setOpenNavigation(false)}
             >
               <a
                 // className="hover:text-blue hover:scale-100"
