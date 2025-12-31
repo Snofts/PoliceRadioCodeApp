@@ -28,6 +28,8 @@
 
 *{
   /* font-family: inter; */
+  /* @apply overflow-x-hidden; */
+  /* overflow-x: hidden; */
 }
 
 html {
@@ -73,5 +75,25 @@ body {
 
   .heading2{
     @apply text-4xl max-sm:text-3xl font-semibold text-center my-20;
+  }
+
+  .privacy{
+    p{
+      @apply text-justify;
+    }
+
+    ul{
+      @apply text-justify;
+    }
+  }
+
+  .terms{
+    p{
+      @apply text-justify;
+    }
+
+    ul{
+      @apply text-justify;
+    }
   }
 }

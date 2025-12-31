@@ -1,10 +1,11 @@
 import React from "react";
 import { benefits } from "../constants";
 import { FaCheck } from "react-icons/fa";
+import { GradientLight } from "./design/Benefits";
 
 const DownloadApp = () => {
   return (
-    <section id="download-app" className="mt-30 !pl-20 !pr-0 max-md:!pl-10 max-md:!pr-10 flex flex-row max-md:flex-col-reverse justify-around items-center gap-0">
+    <section id="download-app" className="overflow-x-hidden mt-30 !pl-20 !pr-0 max-md:!pl-10 max-md:!pr-10 flex flex-row max-md:flex-col-reverse justify-around items-center gap-0">
       <div className="text-xl max-lg:text-sm max-sm:text-xs">
         <h2 className="text-6xl max-md:text-4xl font-semibold mb-10">Download APP</h2>
         <div className="flex justify-center flex-col w-full">
@@ -26,6 +27,7 @@ const DownloadApp = () => {
       </div> */}
       <div>
       <img className="w-[50rem] h-[50rem] max-sm:h-[40rem] object-cover lg:max-w-lg object-contain" src="/iPhone-15-Pro-Max.png" alt="Iphone App Mockup" />
+      <GradientLight />
       </div>
     </section>
   );

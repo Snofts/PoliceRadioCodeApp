@@ -2,14 +2,14 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <section id="privacy-policy">
+    <section id="privacy-policy" className="privacy">
       <h2 className="heading2">Privacy Policy</h2>
       <div className="flex justify-center">
         {/* <div>
 
         </div> */}
         <div className="w-[60%] max-sm:w-[80%] flex flex-col gap-4 border-b-[0.5px] border-gray-700 pb-10">
-          <p>
+          <p className="text-justify">
             This Privacy Policy outlines how Police Radio Code LLC (“we,” “us,”
             “our”) collects, uses, and protects the personal information of
             users of the Police Radio Code app (the “App”). We value your
@@ -43,7 +43,7 @@ const PrivacyPolicy = () => {
             </li>
           </ul>
 
-          <a href="/terms-of-service" className="text-[#40C4FF] hover:text-[#0f5474] underline w-21">
+          <a href="/privacy-policy" className="text-[#40C4FF] hover:text-[#0f5474] underline w-21">
             Read more
           </a>
         </div>

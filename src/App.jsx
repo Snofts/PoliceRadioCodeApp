@@ -14,18 +14,18 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
   return (
-    <>
+    <div className='overflow-x-hidden'>
     <ToastContainer />
       <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-        <Route path="/term-of-service" element={<TermsOfServicePage />} />
+        <Route path="/terms-of-service" element={<TermsOfServicePage />} />
       </Routes>
       
       <Footer />
-    </>
+    </div>
   )
 }
 

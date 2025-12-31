@@ -2,7 +2,7 @@ import React from 'react'
 
 const TermsOfService = () => {
   return (
-    <section id="terms-of-service">
+    <section id="terms-of-service" className='terms'>
       <h2 className="heading2">Terms Of Service</h2>
       <div className="flex justify-center">
         {/* <div>
@@ -39,7 +39,7 @@ const TermsOfService = () => {
             </p>
           </div>
 
-          <a href="/term-of-service" className="text-[#40C4FF] hover:text-[#0f5474] underline w-21">
+          <a href="/terms-of-service" className="text-[#40C4FF] hover:text-[#0f5474] underline w-21">
             Read more
           </a>
         </div>
