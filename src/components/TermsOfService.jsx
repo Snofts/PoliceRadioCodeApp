@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const TermsOfService = () => {
   return (
@@ -39,9 +40,9 @@ const TermsOfService = () => {
             </p>
           </div>
 
-          <a href="/terms-of-service" className="text-[#40C4FF] hover:text-[#0f5474] underline w-21">
+          <Link to="/terms-of-service" className="text-[#40C4FF] hover:text-[#0f5474] underline w-21">
             Read more
-          </a>
+          </Link>
         </div>
       </div>
     </section>

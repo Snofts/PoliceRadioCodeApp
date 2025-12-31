@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   return (
@@ -43,9 +44,9 @@ const PrivacyPolicy = () => {
             </li>
           </ul>
 
-          <a href="/privacy-policy" className="text-[#40C4FF] hover:text-[#0f5474] underline w-21">
+          <Link to="/privacy-policy" className="text-[#40C4FF] hover:text-[#0f5474] underline w-21">
             Read more
-          </a>
+          </Link>
         </div>
       </div>
     </section>
