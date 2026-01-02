@@ -20,7 +20,7 @@ const Navbar = () => {
     <header>
       <nav>
         <div>
-          <h2 className="text-white">PoliceRadioCodeApp</h2>
+          <h2 className="text-white">PoliceRadio</h2>
         </div>
         <ul className={`${openNavigation ? "" : "max-md:hidden"}`}>
           {navLinks.map(({ label, url }) => (
