@@ -28,7 +28,7 @@ const TermsOfService = () => {
               2. Privacy Policy
             </h4>
             <p>
-              Our Privacy Policy, available at <a className='text-[#40C4FF] hover:text-[#0f5474]' href="policeradiocode.com/privacy-policy">policeradiocode.com/privacy-policy</a>, is an integral part of these Terms of Service. By accepting these Terms, you acknowledge and agree to abide by the Privacy Policy and our Advertising Choices. You also consent to the collection and use of your information as outlined in the Privacy Policy.
+              Our Privacy Policy, available at <a className='text-[#40C4FF] hover:text-[#0f5474]' href="/privacy-policy">policeradiocode.com/privacy-policy</a>, is an integral part of these Terms of Service. By accepting these Terms, you acknowledge and agree to abide by the Privacy Policy and our Advertising Choices. You also consent to the collection and use of your information as outlined in the Privacy Policy.
             </p>
           </div>
            <div>

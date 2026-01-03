@@ -41,9 +41,15 @@ const sections = [
     title: "2. Privacy Policy",
     content: (
       <p className="text-justify">
-        Our Privacy Policy, available at policeradiocode.com/privacy-policy, is
-        an integral part of these Terms of Service. By accepting these Terms,
-        you acknowledge and agree to abide by the Privacy Policy and our
+        Our Privacy Policy, available at{" "}
+        <a
+          className="text-[#40C4FF] hover:text-[#0f5474]"
+          href="/privacy-policy"
+        >
+          policeradiocode.com/privacy-policy
+        </a>
+        , is an integral part of these Terms of Service. By accepting these
+        Terms, you acknowledge and agree to abide by the Privacy Policy and our
         Advertising Choices. You also consent to the collection and use of your
         information as outlined in the Privacy Policy.
       </p>
@@ -261,9 +267,15 @@ const sections = [
       <>
         <p className="text-justify mb-4">
           If you have a dispute or issue with Police Radio Code, we encourage
-          you to reach out to us directly at support@policeradiocode.com for
-          resolution. We’re here to help you, and most concerns can be resolved
-          quickly and easily through communication.
+          you to reach out to us directly at
+          <a
+            href="mailto:support@policeradiocode.com"
+            className="text-[#40C4FF] hover:text-[#0f5474] underline w-21"
+          >
+            support@policeradiocode.com
+          </a>
+          for resolution. We’re here to help you, and most concerns can be
+          resolved quickly and easily through communication.
         </p>
         <p className="text-justify mb-4">
           If the issue isn’t resolved after 30 days, either party may choose to
@@ -392,8 +404,14 @@ const sections = [
           encourage you to reach out to us directly.
         </p>
         <p className="text-justify mb-4">
-          For assistance, please send an email to support@policeradiocode.com,
-          and we will do our best to address your inquiries or resolve any
+          For assistance, please send an email to{" "}
+          <a
+            href="mailto:support@policeradiocode.com"
+            className="text-[#40C4FF] hover:text-[#0f5474] underline w-21"
+          >
+            support@policeradiocode.com
+          </a>
+          , and we will do our best to address your inquiries or resolve any
           issues.
         </p>
         <p className="text-justify">
@@ -431,8 +449,15 @@ const sections = [
         <p className="text-justify mb-4">
           If you are the copyright owner or an authorized agent acting on their
           behalf, you can submit a copyright infringement notice by sending an
-          email to support@policeradiocode.com with the subject line "DMCA
-          Notice." Your notice must include the following details:
+          email to
+          <a
+            href="mailto:support@policeradiocode.com"
+            className="text-[#40C4FF] hover:text-[#0f5474] underline w-21"
+          >
+            support@policeradiocode.com
+          </a>
+          with the subject line "DMCA Notice." Your notice must include the
+          following details:
         </p>
         <ul className="list-disc pl-8 mb-4 text-justify space-y-2">
           <li>
@@ -578,10 +603,15 @@ const sections = [
         have any questions, feedback, or concerns regarding these Terms of
         Service or your experience with the Police Radio Code app, we warmly
         encourage you to connect with us directly at
-        support@policeradiocode.com. We strive to respond swiftly,
-        transparently, and helpfully, supporting your journey as part of our
-        global community dedicated to clarity and reliability in police
-        communication.
+        <a
+          href="mailto:support@policeradiocode.com"
+          className="text-[#40C4FF] hover:text-[#0f5474] underline w-21"
+        >
+          support@policeradiocode.com
+        </a>
+        . We strive to respond swiftly, transparently, and helpfully, supporting
+        your journey as part of our global community dedicated to clarity and
+        reliability in police communication.
       </p>
     ),
   },

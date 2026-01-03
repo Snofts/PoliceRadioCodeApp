@@ -1,9 +1,9 @@
 const navLinks = [
-  { label: "Home", url: "/#home" },
-  { label: "How it works", url: "/#how-it-works" },
-  { label: "Privacy Policy", url: "/#privacy-policy" },
-  { label: "Terms of Service", url: "/#terms-of-service" },
-  { label: "Contact Us", url: "/#contact-us" },
+  { label: "Home", url: "#home" },
+  { label: "How it works", url: "#how-it-works" },
+  { label: "Privacy Policy", url: "#privacy-policy" },
+  { label: "Terms of Service", url: "#terms-of-service" },
+  { label: "Contact Us", url: "#contact-us" },
 ];
 
 const works = [
@@ -32,7 +32,7 @@ const works = [
     text: "Access a comprehensive list of police, fire, and emergency codes used by local first responders.",
     backgroundUrl: "/cardsbg/card-3.svg",
     iconUrl: "paste",
-   backgroundColor: "bg-[#B026FF]",
+    backgroundColor: "bg-[#B026FF]",
     // imageUrl: benefitImage2,
   },
   {
@@ -44,14 +44,14 @@ const works = [
     backgroundColor: "bg-[#FFEB3B]",
     // imageUrl: benefitImage2,
     light: true,
-  }
+  },
 ];
 
 const benefits = [
   {
     id: "0",
     text: "Access real-time police, fire, and emergency codes used across multiple countries.",
-    backgroundColor: "bg-[#45a049]"
+    backgroundColor: "bg-[#45a049]",
   },
   {
     id: "1",
@@ -61,13 +61,13 @@ const benefits = [
   {
     id: "2",
     text: "Ensure better communication between responders and the public.",
-   backgroundColor: "bg-[#B026FF]",
+    backgroundColor: "bg-[#B026FF]",
   },
   {
     id: "3",
     text: "Comprehensive database with detailed codes for specific states, counties, and cities.",
     backgroundColor: "bg-[#FFEB3B]",
-  }
+  },
 ];
 
 export { navLinks, works, benefits };

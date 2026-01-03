@@ -256,7 +256,7 @@ const sections = [
     title: "10. Special Information for California Residents",
     content: (
       <p className="text-justify">
-        In accordance with California law, residents of California have the right to request and receive an annual notice, free of charge, from us detailing the categories of personal information (if any) we have shared with third parties, including affiliates, for their direct marketing purposes in the past year. If you are a California resident and would like to request this notice, please reach out to us using the contact details in the "How to Contact Us" section. Be sure to include a request for the "California Privacy Rights Notice" and allow at least 30 days for us to process your request.
+        In accordance with California law, residents of California have the right to request and receive an annual notice, free of charge, from us detailing the categories of personal information (if any) we have shared with third parties, including affiliates, for their direct marketing purposes in the past year. If you are a California resident and would like to request this notice, please reach out to us using the contact details in the "Contact Us" section. Be sure to include a request for the "California Privacy Rights Notice" and allow at least 30 days for us to process your request.
         <br /><br />
         Please note, we are not required to delete or alter content or information in the following situations:
         <ul className="list-disc pl-8 mt-4 text-justify space-y-2">

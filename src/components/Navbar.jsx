@@ -18,30 +18,26 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav>
+      <nav className="sticky">
         <div>
-          <h2 className="text-white">PoliceRadio</h2>
+          <h2 className="text-white">PoliceRadioCode</h2>
         </div>
         <ul className={`${openNavigation ? "" : "max-md:hidden"}`}>
           {navLinks.map(({ label, url }) => (
             <li
               key={label}
               className={`hover:text-[#40C4FF] active:text-[#40C4FF] hover:scale-102 ${
-                url === pathName.hash
-                  ? "text-[#40C4FF] scale-102 hr-2"
-                  : ""
+                url === pathName.hash ? "text-[#40C4FF] scale-102 hr-2" : ""
               }`}
               onClick={() => setOpenNavigation(false)}
             >
               <a
                 // className="hover:text-blue hover:scale-100"
-                href={url}
+                href={`/${url}`}
               >
                 {label}
               </a>
-              {
-                url === pathName.hash ? <hr className="my-1 border-t " /> : null
-              }
+              {url === pathName.hash ? <hr className="my-1 border-t " /> : null}
             </li>
           ))}
         </ul>
