@@ -42,12 +42,12 @@ const sections = [
     content: (
       <p className="text-justify">
         Our Privacy Policy, available at{" "}
-        <a
+        <Link
           className="text-[#40C4FF] hover:text-[#0f5474]"
-          href="/privacy-policy"
+          to="/privacy-policy"
         >
           policeradiocode.com/privacy-policy
-        </a>
+        </Link>
         , is an integral part of these Terms of Service. By accepting these
         Terms, you acknowledge and agree to abide by the Privacy Policy and our
         Advertising Choices. You also consent to the collection and use of your
@@ -267,13 +267,15 @@ const sections = [
       <>
         <p className="text-justify mb-4">
           If you have a dispute or issue with Police Radio Code, we encourage
-          you to reach out to us directly at
-          <a
-            href="mailto:support@policeradiocode.com"
-            className="text-[#40C4FF] hover:text-[#0f5474] underline w-21"
-          >
-            support@policeradiocode.com
-          </a>
+          you to reach out to us directly at{" "}
+          <span>
+            <a
+              href="mailto:support@policeradiocode.com"
+              className="text-[#40C4FF] hover:text-[#0f5474] underline w-21"
+            >
+              support@policeradiocode.com
+            </a>
+          </span>{" "}
           for resolution. We’re here to help you, and most concerns can be
           resolved quickly and easily through communication.
         </p>
@@ -405,12 +407,14 @@ const sections = [
         </p>
         <p className="text-justify mb-4">
           For assistance, please send an email to{" "}
-          <a
-            href="mailto:support@policeradiocode.com"
-            className="text-[#40C4FF] hover:text-[#0f5474] underline w-21"
-          >
-            support@policeradiocode.com
-          </a>
+          <span>
+            <a
+              href="mailto:support@policeradiocode.com"
+              className="text-[#40C4FF] hover:text-[#0f5474] underline w-21"
+            >
+              support@policeradiocode.com
+            </a>
+          </span>
           , and we will do our best to address your inquiries or resolve any
           issues.
         </p>
@@ -602,13 +606,12 @@ const sections = [
         Clear communication is the heartbeat of Police Radio Code LLC. If you
         have any questions, feedback, or concerns regarding these Terms of
         Service or your experience with the Police Radio Code app, we warmly
-        encourage you to connect with us directly at
-        <a
+        encourage you to connect with us directly at <span><a
           href="mailto:support@policeradiocode.com"
           className="text-[#40C4FF] hover:text-[#0f5474] underline w-21"
         >
           support@policeradiocode.com
-        </a>
+        </a></span>
         . We strive to respond swiftly, transparently, and helpfully, supporting
         your journey as part of our global community dedicated to clarity and
         reliability in police communication.

@@ -3,27 +3,47 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 
 const ContactUs = () => {
-  const [isSubmiting, setIsSubmiting] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmiting(true);
+    setIsSubmitting(true);
 
-    setTimeout(() => {
-      toast.success("Message Sent");
-      setIsSubmiting(false);
-    }, 1500);
+    const formData = new FormData(e.target);
+
+    try {
+      const response = await fetch(
+        "https://policeradiocode.com/send-email.php",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+
+      const result = await response.json();
+
+      if (result.success) {
+        toast.success("Message sent successfully!");
+        e.target.reset(); // Clear form
+      } else {
+        toast.error(result.message || "Failed to send message.");
+      }
+    } catch (error) {
+      toast.error("Network error. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
     <section id="contact-us">
-      <div className="bg-card p-8 rounded-lg shadow-xs" onSubmit={handleSubmit}>
+      <div className="bg-card p-8 rounded-lg shadow-xs">
         <h3 className="text-4xl font-semibold my-20 text-center">
           Send Us a Message
         </h3>
         <form
-          action=""
           className="space-y-6 grid grid-cols-2 max-md:grid-cols-[20rem] max-sm:grid-cols-[10rem] grid-rows-[8rem_10rem_10rem] max-md:grid-rows-[7rem_7rem_10rem_5rem] gap-y-0 gap-x-7"
+          onSubmit={handleSubmit}
         >
           <div className="col-span-1 max-md:col-span-2">
             <label htmlFor="name" className="block text-sm font-medium mb-2 ">
@@ -69,10 +89,10 @@ const ContactUs = () => {
           <div className="col-span-2 flex justify-center max-md:items-center">
             <button
               type="submit"
-              disabled={isSubmiting}
+              disabled={isSubmitting}
               className="bg-blue-500 hover:bg-blue-400 transition-colors w-[10rem] h-[3rem] rounded-full flex items-center justify-center items-center gap-2"
             >
-              {isSubmiting ? "Sending...." : "Send Message"}
+              {isSubmitting ? "Sending...." : "Send Message"}
               <Send size={16} />
             </button>
           </div>
